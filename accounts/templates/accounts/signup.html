@@ -4,7 +4,7 @@
 {% if error %}
 <br>{{ error }}<br><br>
 {% endif %}
-
+<div class="col-4">
 <h1> Signup ! </h1>
 <form method="POST" action="{% url 'signup' %}">
 
@@ -17,4 +17,5 @@
   <input type="password" name="password2"/>
   <br><br>
   <input class="btn btn-primary" type="submit" value="Sign Up! " />
+  </div>
 {%endblock%}
